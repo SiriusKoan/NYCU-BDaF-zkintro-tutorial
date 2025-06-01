@@ -1,0 +1,6 @@
+services:
+  zk:
+    build: .
+    command: sleep infinity
+    volumes:
+      - .:/app
